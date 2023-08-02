@@ -10,11 +10,13 @@ QueryBuilder::insrst('tasks', [
 
 ]);
 */
+/*
 QueryBuilder::update('tasks',4,[
   'description' => 'update new Task 1',
   'completed'   => 1 
 ]);
-
+*/
+QueryBuilder::delete('tasks' , 0 ,'id','>');
 
 $tasks = QueryBuilder::get('tasks');
 
