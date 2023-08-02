@@ -25,3 +25,4 @@ $arr1 = ['red' ,'green','blue'];
 $arr2 = ['black','yellow'];
 $result = array_merge($arr1,$arr2);
 print_r($result);
+
